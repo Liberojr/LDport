@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+    position: fixed;
+    min-width: 100%;
+    z-index: 5;
+    margin: auto;
+    display: grid;
+    background: linear-gradient(to bottom, #45484d 0%,#000000 83%);
+    height: 50px;
+    grid-template-columns: 1fr 3fr;
+}
+#header2 {
+    width: 100%;
+    z-index: 5;
+    margin: auto;
+    display:flex;
+    justify-content: right;
+}
+.FirstHeaderButton {
+    background-color: rgb(250, 67, 67);
+    font-family: 'Times New Roman', Times, serif;
+}
+#headerButtons1{
+    display:flex;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-decoration: none;
+}
+#headerButtons2{
+    display:flex;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #45484d 0%,#000000 83%);
+    
+}
+#headerButtons3{
+    display:flex;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-decoration: none;
+    background: rgb(250, 67, 67);
+    
+}
+
+#headerButtons{
+    display:flex;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-decoration: none;
+}
+.lastHeaderButton{ 
+    background-color: rgb(250, 67, 67);
+}
+#headerButtons:hover{
+    transition: 1s;
+    background: linear-gradient(to bottom, #000000 0%,#45484d 100%);
+    
+}
+body{ 
+    background: linear-gradient(to right, #45484d 0%,#000000 100%);
+}
+
+
+#img{ 
+    z-index:-1;
+    height: 300px;
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+}
+
+button{
+    background:none;
+    border: none;
+}
+section{
+    margin: auto;
+    background-color:none;
+    width: 80%;
+}
+#descripitionGet{ 
+    text-transform: uppercase;
+    margin: 0px 0px 20px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(250, 67, 67);
+    
+}
+#descripitionGet1{ 
+    text-align: left;
+    margin: 0px 0 30px 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sectionDiv {
+    height:700px;
+    
+    
+}
+#sectionOne{   
+    justify-content: center;
+   align-items: center; 
+    display:grid;
+    grid-template-columns:  1fr 2fr;
+}
+.sectionSpan {
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 50px;
+    border-top: 10px double rgb(110, 110, 110);
+    border-left: 10px solid rgb(87, 87, 87); 
+    background: none;
+    color: #fff;
+    
+    
+}
+.sectionSpan:hover{
+
+    background-color:rgb(51, 51, 51);
+    animation-name: moveRight;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+#sectionGeralButtons{
+    display:flex;
+    margin:10px 0 0 30px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    max-width: 90px;
+    height: 50px;
+    padding: 0 10px 0 10px;
+    background-color:rgb(250, 67, 67);
+    border-radius: 10px;
+}
+#sectionGeralButtons:hover{
+    background-color:rgb(255, 0, 0);
+    transition:1s;
+
+}
+#sectionThree{
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display:grid;
+    grid-template-columns: 1fr 1fr;   
+}
+#sectionTreeRight{ 
+    margin: auto;
+    background-color: rgba(73, 72, 72, 0.534);
+    height: 500px;
+    width:350px;
+}
+h2 { 
+    margin: 30px 0 30px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: rgb(250, 67, 67);
+}
+#textTreeSection{
+    margin: 20px 27px 0 30px;
+    text-align: justify;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sectionSpanDiv {
+    display:flex;
+  
+}
+.ingles{
+    display:flex;
+    max-height: 50px;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-decoration: none;
+}
+
+#sectionSpanDivTwo{
+    margin: auto; 
+    background-color: rgba(250, 67, 67, 0.404);
+    width: 300px;
+    height: 400px;
+    justify-items: center;
+    align-items: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+#icon {
+    
+    height: 100px;
+}
+#iconBackGround{ 
+    width: 100px;
+    height: 100px;
+    background-color: none;
+}
+#iconBackGround:hover{
+    transition:1s;
+    width: 120px;
+    height:80px;
+}
+#sectionSpan2,p {
+    margin: 0 30px 0 30px;
+}
+#sectionTwo{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 500px;
+    width: 100%;
+    background-image: url('../assets/background2.jpg');
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sectionSpan2{ 
+    width: 300px;
+    height: 400px;
+    text-align: justify;
+
+    color: #fff;
+    margin: auto;
+    background-color: rgba(73, 72, 72, 0.534);
+
+
+}
+#sectionFour{
+    margin: auto;
+    margin-top: 50px;
+    height: 600px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.123);
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    align-items: center;
+    justify-content: center;
+}
+
+#sectionFuorUp { 
+    margin: auto;
+    width: 600px;
+    height: 100px;
+    background-color:rgba(73, 72, 72, 0.719);
+}
+#comingSoon{ 
+    display: flex;
+    margin:auto;
+    
+    height: 160px;
+}
+#comingSoonModal{
+    display: flex;
+    margin:auto;
+    height: 400px;
+
+}
+#buttonContainer {
+    margin-top: 8px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#gitbutton {
+    background-color:rgb(250, 67, 67);
+    height:30px;
+    width:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+#gitbutton:hover{
+    background-color:rgb(255, 0, 0);
+    transition:1s;
+}
+#sectionFuorDown{ 
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-evenly;
+    height:500px;
+    width: 700px;
+    background-color: rgba(250, 67, 67, 0.404);;
+}
+#sectionProjects {
+    margin: 30px 10px 0px 10px;
+    height:200px;
+    width: 150px;
+    background:#45484d6c;
+    
+}
+
+.GeneralModal2 { 
+    display:none;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #45484db2;
+    animation-name: modal;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+
+#bodyModal{
+    position: relative;
+    top:70px;
+    margin: auto;
+    height:450px;
+    width: 500px;
+    background-color: #45484d;
+}
+#lastSection { 
+    margin-top: 50px;
+    display:grid;
+    grid-template-rows: 1fr 4fr;
+    height: 300px;
+    width: 100vw;
+    background-color: rgba(250, 67, 67, 0.411);
+}
+h3{
+    margin: 30px;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#lastSectionTitle{ 
+    margin:auto;
+    height: 100px;
+    width: 300px;
+    
+}
+#lastSectionSecond{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.GeneralModal3{ 
+    display:none;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #45484db2;
+    animation-name: modal;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+.GeneralModal4{ 
+    display:none;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #45484db2;
+    animation-name: modal;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+.GeneralModal5{ 
+    display:none;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #45484db2;
+    animation-name: modal;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+.headerModal{ 
+    background: linear-gradient(to bottom, #45484d 0%,#000000 83%);
+}
+.HomeModal{ 
+    z-index: 10;
+    display:none;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    animation-name: modal;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveRight {
+    100%{
+        transform: translatey(-60px);
+    }
+    
+}
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translatey(-60px);
+    }
+    to {
+        opacity: 1;
+        transform: translatey(0);
+
+    }
+    
+}
+@media (max-width: 767px) {
+    #headerButtons{
+        display:none;
+    }
+    .sectionSpan2 { 
+        height: 270px;
+    }
+    #descripitionGet1 {
+        margin: 0px 0 6px -10px;
+    }
+    #descripitionGet {
+        
+        margin: 0px 0px 7px -14px;
+    }
+    #sectionFuorDown{
+        width: 370px;
+        gap: 0px;
+    }
+   
+    #sectionOne {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        top: 93px;
+        margin-bottom: 105px;
+    }
+    #sectionTreeRight {
+        margin: auto;
+        background-color: rgba(73, 72, 72, 0.833);
+        height: 480px;
+        width: 323px;
+    }
+    
+    #sectionFuorUp {
+        margin: auto;
+        width: 161px;
+        height: 100px;
+        background-color: rgba(73, 72, 72, 0.718);
+    }
+    .sectionSpan {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: -57px;
+        padding: 24px;
+        border-radius: 50px;
+        border-top: 10px double rgb(110, 110, 110);
+        border-left: 10px solid rgb(87, 87, 87);
+        background: none;
+        color: #fff;
+    }
+    #sectionThree {
+        background-image: url(../assets/backgroundCut.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 0 70px;
+    }
+    #sectionTwo{
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        
+        width: 100%;
+        background-image: url('../assets/background2Cut.png');
+        background-size: contain;
+        display: grid;
+        height: 670px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #bodyModal {
+        position: relative;
+        top: 70px;
+        margin: auto;
+        height: 452px;
+        width: 400px;
+        background-color: #45484d;
+    }
+}   
